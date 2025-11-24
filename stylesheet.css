@@ -1,0 +1,197 @@
+body, div, span, ul, li, a, table, td, tr, iframe, center, img
+{
+	padding: 			0px;
+	margin:				0px;
+	border:				0px;
+}
+
+body
+{
+	margin-top:			5px;
+	margin-bottom:		5px;
+	background-color:	#8ec1da;
+	text-align:			center;
+}
+
+/* ------------------------------------------------ Container ----------------------------------------- */
+#Container
+{
+	background-color:	#a7d0e3;
+	width: 				1000px;
+	min-height:			650px;
+	margin:				auto;
+	padding:			5px;
+	
+	-webkit-box-shadow: 	5px 5px 4px #818181;
+	-moz-box-shadow: 		5px 5px 4px #818181;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+
+/* -------------------------------------------------- Top -------------------------------------------------- */
+#Top
+{
+	height:				150px;
+	width:				990px;
+	margin:				auto;
+	margin-top:			5px;
+	background-image:	url("pics/header.jpg");
+	
+	-webkit-box-shadow: 	5px 5px 4px #818181;
+	-moz-box-shadow: 		5px 5px 4px #818181;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+/* --------------------------------------------- Comments ---------------------------------------------------- */
+#Comment
+{
+	width:				780px;
+	min-height:			0px;
+	margin-top:			10px;
+	margin-left:		190px;
+	text-align:			left;
+	overflow:			auto;
+}
+
+#Comment h2
+{
+	background-color:	#c0deed;
+	color:				#264c72;
+	margin-right:		10px;
+	padding:  			8px;
+	
+	-webkit-box-shadow: 	5px 5px 4px #818181;
+	-moz-box-shadow: 		5px 5px 4px #818181;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+
+/* ------------------------------------- The content of the current page ------------------------------------- */
+#Content
+{
+	width:				780px;
+	min-height:			550px;
+	top:				120px;
+	margin-top:			10px;
+	margin-left:		190px;
+	overflow:			auto;
+}
+
+#Content img
+{
+	-webkit-box-shadow: 	5px 5px 4px #818181;
+	-moz-box-shadow: 		5px 5px 4px #818181;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+
+#Content h1
+{
+	font-size:			20pt;
+	text-align: 		center;
+}
+#Content h2
+{
+	font-size:			14pt;
+	text-align: 		left;
+}
+#Content p, #Content ol, #Content ul, #Content li
+{
+	font-size:			12pt;
+	text-align: 		justify;
+}
+
+/* ----------------------------------------------- Progress ------------------------------------------------ */
+.Progress
+{
+	display:				block;
+	margin:					auto;
+	margin-top:				30%;
+}
+
+#Content .Progress img
+{
+	-webkit-box-shadow: 	0px 0px 0px #818181;
+	-moz-box-shadow: 		0px 0px 0px #818181;
+	-moz-border-radius: 	0px;
+	-webkit-border-radius: 	0px;
+}
+/* ------------------------------------------------ Bottom ------------------------------------------------- */
+#Bottom
+{
+	width:				1000px;
+	height:				30px;
+	margin-left:		auto;
+	margin-right:		auto;
+	margin-top:			10px;
+	padding:            0px;//10px 10px 10px 10px;
+	font-size:			8pt;
+}
+
+/* ------------------------------------------------ Left side ----------------------------------------------- */
+#Left
+{
+	position:			absolute;
+	top: 				165px;
+	background-color:	#c0deed;
+	width:				140px;
+	height:				530px;
+	margin-top:			10px;
+	margin-left:		5px;
+	padding:  			5px;
+	
+	-webkit-box-shadow: 	5px 5px 4px #818181;
+	-moz-box-shadow: 		5px 5px 4px #818181;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+
+.sticky #Left {
+    position: fixed;
+    top: 0;
+}
+
+/* ------------------------------------------ Menu & its elements ----------------------------------------- */
+#Menu,#Language
+{
+	margin-top:			5px;
+}
+
+#Like
+{
+	position:			absolute;
+	bottom:				5px;
+	text-align:			left;
+}
+
+#Menu ul
+{
+    list-style-type:	none;
+	font-weight:		bold;
+	float:				left;
+	text-align:			center;
+}
+
+#Menu li
+{
+	margin-bottom:		2px;
+}
+
+#Menu li a
+{
+	width:				140px;
+	padding:			5px 0px 5px 0px;
+	text-decoration:	none;
+	display:			block;
+	color:				#468cd2;
+	background-color:	#daedf5;
+	
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+}
+
+#Menu li a:hover
+{
+	color:				#daedf5;
+	background-color:	#468cd2;
+}
