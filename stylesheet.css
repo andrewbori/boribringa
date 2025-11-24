@@ -42,29 +42,6 @@ body
 	-moz-border-radius: 	4px;
 	-webkit-border-radius: 	4px;
 }
-/* --------------------------------------------- Comments ---------------------------------------------------- */
-#Comment
-{
-	width:				780px;
-	min-height:			0px;
-	margin-top:			10px;
-	margin-left:		190px;
-	text-align:			left;
-	overflow:			auto;
-}
-
-#Comment h2
-{
-	background-color:	#c0deed;
-	color:				#264c72;
-	margin-right:		10px;
-	padding:  			8px;
-	
-	-webkit-box-shadow: 	5px 5px 4px #818181;
-	-moz-box-shadow: 		5px 5px 4px #818181;
-	-moz-border-radius: 	4px;
-	-webkit-border-radius: 	4px;
-}
 
 /* ------------------------------------- The content of the current page ------------------------------------- */
 #Content

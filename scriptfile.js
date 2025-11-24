@@ -21,14 +21,6 @@ function loadPage(pageName) {
 	pageName = page + "_" + language + ".html";
 	
 	changePage(pageName, "Content");
-	
-	if (page=="olimpia" || page=="inverz" || page=="rodeo" || page=="kontra" ||
-		page=="tukor" || page=="porgo" || page=="csuklo" || page=="tukormini") {
-		changePage("comment.php?bicycle=" + page, "Comment");
-	}
-	else {
-		changePage("null.html", "Comment");
-	}
 }
 
 function changePage(pageName, contextName) {	
