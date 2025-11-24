@@ -1,4 +1,4 @@
-var language="hu";
+ï»¿var language="hu";
 var page="home";
 
 function init() {
@@ -64,18 +64,18 @@ function setLanguage(languageName) {
 			document.getElementById("videos").innerHTML="Videos";
 			break;
 		case 'hu':
-			document.title = "Bori Jenõ különleges kerékpárjai";
-			document.getElementById("home").innerHTML="Kezdõlap";
+			document.title = "Bori JenÅ‘ kÃ¼lÃ¶nleges kerÃ©kpÃ¡rjai";
+			document.getElementById("home").innerHTML="KezdÅ‘lap";
 			document.getElementById("olimpia").innerHTML="Olimpiabicikli";
 			document.getElementById("inverz").innerHTML="Inverzbicikli";
 			document.getElementById("rodeo").innerHTML="Rodeobicikli";
 			document.getElementById("kontra").innerHTML="Kontrabicikli";
-			document.getElementById("tukor").innerHTML="Tükörtandem";
-			document.getElementById("porgo").innerHTML="Pörgõ bringa";
-			document.getElementById("csuklo").innerHTML="Csukló bringa";
-			document.getElementById("tukormini").innerHTML="Tükör-minivelocipéd";
-			document.getElementById("photos").innerHTML="Képek";
-			document.getElementById("videos").innerHTML="Videók";
+			document.getElementById("tukor").innerHTML="TÃ¼kÃ¶rtandem";
+			document.getElementById("porgo").innerHTML="PÃ¶rgÅ‘ bringa";
+			document.getElementById("csuklo").innerHTML="CsuklÃ³ bringa";
+			document.getElementById("tukormini").innerHTML="TÃ¼kÃ¶r-minivelocipÃ©d";
+			document.getElementById("photos").innerHTML="KÃ©pek";
+			document.getElementById("videos").innerHTML="VideÃ³k";
 			break;
 	}
 }
